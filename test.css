@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-image:url(bg.jpeg);
+background-size:cover;
+background-position:right;
+}
+
+.active {/*den aktive side bliver stylet, så det er nemmere og se hvor man befinder sig på hjemmesiden*/
+	color:#72557B;
+	font-size:24px;
+	text-decoration:underline;}
+	
+a { /*menupunkternes styling - det er alle links, da de linker til andre HTML sider */
+	color:#4D5268;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	letter-spacing:1px;
+	font-style:normal;
+	margin-left:10px;}
+	
+.text {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:34px;
+	color:#586636;
+	margin-bottom:140px;
+	margin-top:100px;
+	margin-left:20px;
+	margin-right:20px;
+	width:400px;}
+	
+h3 {color:#1D5848;
+	letter-spacing:4px;
+	font-size:17px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
